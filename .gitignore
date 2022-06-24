@@ -1,0 +1,6 @@
+.vscode/
+build/
+image/
+*.zip
+*.ppm
+todolist.md
