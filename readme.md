@@ -1,3 +1,20 @@
+## 简介
+
+1. 实现了重要性采样与低差异化序列来降低渲染噪声
+2. 用多重重要性采样降低具有高光材质所导致的噪声，这里的多重重要性采样方法由于实现因素而失去了无偏性，然而它换来了更小的噪声（尤其在边缘处）
+
+## 渲染效果
+
+
+
+![低差异化序列](/Users/wxl/lab/graphics/myrenderer/result/低差异化序列.png)
+
+![重要性采样](/Users/wxl/lab/graphics/myrenderer/result/重要性采样.png)
+
+![多重重要性采样](/Users/wxl/lab/graphics/myrenderer/result/多重重要性采样.png)
+
+
+
 ## 平台
 
 macOS 或 ubuntu
@@ -40,6 +57,4 @@ make
     白噪声
     低差异化序列
 6. 光线追踪求解器 Renderer
-
-
 
